@@ -8820,3 +8820,75 @@ body::-webkit-scrollbar-thumb {
     
   border: 3px solid #000000;  
 }
+
+/*------------------
+  Trainer section
+---------------------*/
+
+.section-title {
+	margin-bottom: 45px;
+}
+
+.about-page-trainer {
+  padding-bottom: 70px;
+  padding: 7em 0;
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } 
+}
+.about-page-trainer .section-title h2 {
+  color: #191919;
+  font-weight: 600;
+}
+.about-page-trainer .section-title h2:before {
+  background: #f34e3a;
+}
+.about-page-trainer .section-title p {
+  color: #6e6e6e;
+}
+.about-page-trainer .single-trainer-item {
+  text-align: center;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.about-page-trainer .single-trainer-item:hover {
+  -webkit-box-shadow: 1px 2px 30px 5px #d8d8d8;
+  box-shadow: 1px 2px 30px 5px #d8d8d8;
+}
+.about-page-trainer .single-trainer-item .trainer-pic img {
+  min-width: 100%;
+}
+.about-page-trainer .single-trainer-item .trainer-text {
+  padding: 25px 30px 25px;
+}
+.about-page-trainer .single-trainer-item .trainer-text h2 {
+  color: #191919;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.about-page-trainer .single-trainer-item .trainer-text span {
+  color: #6e6e6e;
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+  margin-bottom: 14px;
+}
+.about-page-trainer .single-trainer-item .trainer-text .trainer-social {
+  border-top: 1px solid #CC1900;
+  padding-top: 15px;
+}
+.about-page-trainer .single-trainer-item .trainer-text .trainer-social a {
+  display: inline-block;
+  color: #6e6e6e;
+  font-size: 14px;
+  margin-right: 26px;
+}
+.about-page-trainer .single-trainer-item .trainer-text .trainer-social a:last-child {
+  margin-right: 0;
+}
+
+
