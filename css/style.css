@@ -119,18 +119,18 @@ body {
 }
 
 .custom_nav2 .custom_nav-container {
-  padding: 5px 0;
+  padding: 1px 0;
   background-color: #CC1900;
   -webkit-clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
           clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
 }
 
 .custom_nav2 .navbar-expand-lg .navbar-nav .nav-item .nav-link {
-  padding: 10px 30px;
+  padding: 9px 30px;
   color: #000;
   text-align: center;
   position: relative;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
 }
 
