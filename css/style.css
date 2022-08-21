@@ -8051,9 +8051,11 @@ textarea.form-control {
   padding: 4em 0;
   background: #000; }
   .ftco-footer h1.logo {
-    color: #fff;
-    font-size: 30px;
-    font-weight: 300; }
+    color: #CC1900;
+    font-size: 22px; 
+    text-transform: uppercase; 
+    font-weight: 600;
+    letter-spacing: 2px;}
   .ftco-footer h2.location {
     font-size: 24px;
     color: rgba(255, 255, 255, 0.9); }
@@ -8824,71 +8826,37 @@ body::-webkit-scrollbar-thumb {
 /*------------------
   Trainer section
 ---------------------*/
+.team_title{
 
-.section-title {
-	margin-bottom: 45px;
-}
+      padding-top: 15px;
+      font-size: 36px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      font-size: 16px;
+      margin-bottom: 0;
+      font-weight: 400;
+      color: #fff;
+  }
 
-.about-page-trainer {
-  padding-bottom: 70px;
-  padding: 7em 0;
-  position: relative; }
-  @media (max-width: 767.98px) {
-    .ftco-section {
-      padding: 6em 0; } 
-}
-.about-page-trainer .section-title h2 {
-  color: #191919;
-  font-weight: 600;
-}
-.about-page-trainer .section-title h2:before {
-  background: #f34e3a;
-}
-.about-page-trainer .section-title p {
-  color: #6e6e6e;
-}
-.about-page-trainer .single-trainer-item {
-  text-align: center;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.about-page-trainer .single-trainer-item:hover {
-  -webkit-box-shadow: 1px 2px 30px 5px #d8d8d8;
-  box-shadow: 1px 2px 30px 5px #d8d8d8;
-}
-.about-page-trainer .single-trainer-item .trainer-pic img {
-  min-width: 100%;
-}
-.about-page-trainer .single-trainer-item .trainer-text {
-  padding: 25px 30px 25px;
-}
-.about-page-trainer .single-trainer-item .trainer-text h2 {
-  color: #191919;
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 8px;
-}
-.about-page-trainer .single-trainer-item .trainer-text span {
-  color: #6e6e6e;
-  font-size: 16px;
-  line-height: 30px;
-  display: block;
-  margin-bottom: 14px;
-}
-.about-page-trainer .single-trainer-item .trainer-text .trainer-social {
-  border-top: 1px solid #CC1900;
-  padding-top: 15px;
-}
-.about-page-trainer .single-trainer-item .trainer-text .trainer-social a {
-  display: inline-block;
-  color: #6e6e6e;
-  font-size: 14px;
-  margin-right: 26px;
-}
-.about-page-trainer .single-trainer-item .trainer-text .trainer-social a:last-child {
-  margin-right: 0;
+  .team_area .single_team .team_thumb .team_hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transform: translateY(10%);
+    -moz-transform: translateY(10%);
+    -ms-transform: translateY(10%);
+    transform: translateY(10%);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
 }
 
+.text-center {
+  text-align: center!important
+}
 
