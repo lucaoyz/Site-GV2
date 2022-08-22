@@ -962,12 +962,12 @@ body::-webkit-scrollbar-thumb {
 .pricing-card{
   flex: 1;
   max-width: 360px;
-  background-color: #fff;
+  background-color: #000;
   margin: 20px 10px;
   text-align: center;
   cursor: pointer;
   overflow: hidden;
-  color: #2d2d2d;
+  color: #fff;
   transition: .3s linear;
 }
 
