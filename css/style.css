@@ -120,14 +120,14 @@ body {
 
 .custom_nav2 .custom_nav-container {
   padding: 1px 0;
-  background-color: #CC1900;
+  background-color: #000;
   -webkit-clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
           clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
 }
 
 .custom_nav2 .navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 9px 30px;
-  color: #000;
+  color: #fff;
   text-align: center;
   position: relative;
   font-size: 17px;
@@ -135,7 +135,7 @@ body {
 }
 
 .custom_nav2 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav2 .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #ffffff;
+  color: #CC1900;
 }
 
 .custom_nav2 #navbarSupportedContent {
@@ -918,7 +918,7 @@ a:focus {
 }
 
 .footer_section a {
-  color: #ffffff;
+  color: #CFF433;
 }
 
 /* scrollbar */
@@ -976,7 +976,6 @@ body::-webkit-scrollbar-thumb {
   display: inline-block;
   color: #fff;
   padding: 12px 30px;
-  border-radius: 0 0 20px 20px;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
@@ -1016,7 +1015,6 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid #CC1900;
   color: #CC1900;
   padding: 18px 40px;
-  border-radius: 8px;
   text-transform: uppercase;
   font-weight: 500;
   transition: .3s linear;
@@ -1038,5 +1036,20 @@ body::-webkit-scrollbar-thumb {
     flex: 100%;
   } 
 }
+
+/* footer */
+.footer-logo {
+  display: block;
+  width: 85px;
+  height: 28px;
+  background-size: 85px 28px;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
