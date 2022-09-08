@@ -537,6 +537,10 @@ progress {
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y); }
 
+.equipe{
+  text-align: center;
+}
+
 .col {
   -webkit-box-flex: 1;
   -ms-flex: 1 0 0%;
@@ -1131,6 +1135,11 @@ progress {
     flex: 0 0 auto;
     width: 16.66667%; }
   .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 25%; }
+  .col-lg-3-equipe {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
@@ -6362,9 +6371,6 @@ textarea.form-control-lg {
 .bg-lightblack {
   background-color: #000 !important; }
 
-.bg-lightbl {
-  background-color: #191919 !important; }
-
 .bg-dark {
   background-color: #212529 !important; }
 
@@ -9869,6 +9875,23 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* planos */
+
+/* contato */
+.bckgcontact {
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/testebckg.jpg");
+  background-repeat: no-repeat;
+  position: relative; }
+  .bckgcontact.overlay:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1; }
 
 /*result_section*/
 .result_section {
