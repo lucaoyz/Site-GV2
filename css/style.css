@@ -465,6 +465,10 @@ progress {
   max-width: 100%;
   height: auto; }
 
+.img-fluidservices {
+  max-width: 80%;
+  height: auto; }
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -9904,12 +9908,11 @@ body::-webkit-scrollbar-thumb {
   font-family: var(--bs-font-sans-serif);
   color: #F63D3D;
 	font-size: 22px;
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 
 .pricing-item .pi-price {
-	width: 144px;
 	height: 144px;
 	margin: -71px auto 30px;
 	padding-top: 35px;
