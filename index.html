@@ -1,529 +1,636 @@
-<!-- /*
-* Template Name: Archiark
-* Template Author: Untree.co
-* Tempalte URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="images/ICO GV2.ico">
 
-	<meta name="description" content="" />
-	<meta name="keywords" content="bootstrap, bootstrap5" />
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>GV2 Academia</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<link rel="stylesheet" href="css/tiny-slider.css">
-	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="css/glightbox.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-	<link rel="stylesheet" href="css/style.css">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-	<title>GV2 Academia</title>
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="https://kit.fontawesome.com/ea50c2066e.js" crossorigin="anonymous"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/ICO GV2.ico" type="image/x-icon">
+    <link rel="icon" href="images/ICO GV2.ico" type="image/x-icon">
+
 </head>
-<body>
 
-	<div class="site-mobile-menu site-navbar-target">
-		<div class="site-mobile-menu-header">
-			<div class="site-mobile-menu-close">
-				<span class="icofont-close js-menu-toggle"></span>
-			</div>
-		</div>
-		<div class="site-mobile-menu-body"></div>
-	</div>
+<body id="top">
 
-	<nav class="site-nav">
-		<div class="container">
-			<div class="site-navigation">
-				<a href="index.html" class="logo m-0 float-start"><span class="text-primary"></span> </a>
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-				<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-start">
-					<li class="active"><a href="index.html">Menu</a></li>
-					<li><a href="#sobre">Sobre</a></li>
-					<li><a href="#servicos">Serviços</a></li>
-					<li><a href="#estrutura">Estrutura</a></li>
-					<li><a href="#planos">Planos</a></li>
-					<li><a href="#equipe">Equipe</a></li>
-					<li><a href="#contato">Contato</a></li>
-				</ul>
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/Logo horizontal mais compacta.png" alt=""></a>
+        </div>
 
-				
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Menu</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">Sobre</a></li>
+                <li><a class="smoothscroll"  href="#pricing" title="blog">Planos</a></li>
+                <li><a class="smoothscroll"  href="#estrutura" title="contact">Estrutura</a></li>
+                <li><a class="smoothscroll"  href="#gallery" title="contact">Galeria</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contato</a></li>
+                <li><a class="smoothscroll"  href="#login" title="contact">Login</a></li>
+            </ul>
+        </nav>
 
-				<a href="#" class="burger ml-auto float-end site-menu-toggle light js-menu-toggle d-inline-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
-					<span></span>
-				</a>
-				<ul class="site-menu float-end d-none d-md-block">
-					<li><a href="#" class="d-flex align-items-center text-white h2 fw-bold"><span class="icon-lock me-2"></span> <span>LOGIN</span></a></li>
-				</ul>
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
 
-			</div>
-		</div>
-	</nav>
-
-	<div class="hero-2 overlay" style="background-image: url('images/bckg.jpg');">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-5 mx-auto">
-					<h1 class="mb-5"><span>Força é um</span><span class="d-block">segundo poder</span></h1>
-				</div>
-			</div>
-		</div>
-	</div>
+    </header> <!-- end s-header -->
 
 
-	<div id="sobre" class="section sec-1 bg-lightblack">
-		<div class="container">
-			<div class="row g-0">
-				<div class="col-lg-3">
-					<h2 class="heading" style="color: #fff;">Sobre a GV2</h2>
-					<p>Somos mais que uma academia de musculação, somos um time. Oferecemos o melhor para quem está determinado em treinar, com ampla quantidade de equipamentos e profissionais treinados e dedicados a te levar ao melhor desempenho referente aos seus objetivos. </p>
-				</div>
-				<div class="col-lg-6 mb-4 ms-auto">
-					<img src="" alt="Image" class="img-fluid img-r">
-				</div>
-			</div>
-		</div>
-	</div>
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/bckg.jpg" data-natural-width=8000 data-natural-height=4500 data-position-y=center>
 
-	<div id="servicos" class="sec-3 section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3">
-					<h2 class="heading">Serviços</h2>
-					<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio dicta placeat! Et pariatur doloremque ea veniam.</p>
-				</div>
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
 
-				<div class="col-lg-6 ms-auto">
-					<div class="accordion accordion-flush accordion-1" id="accordionFlushExample">
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingOne">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-									Interior Design
-								</button>
-							</h2>
-							<div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-								<div class="accordion-body">
-									<div class="row justify-content-between">
-										<div class="col-md-4">
-											<img src="images/img_7.jpg" alt="Image" class="img-fluid">
-										</div>
-										<div class="col-md-8">
-											<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingTwo">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-									Landscape Design
-								</button>
-							</h2>
-							<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-								<div class="accordion-body">
-									<div class="row justify-content-between">
-										<div class="col-md-4">
-											<img src="images/img_2.jpg" alt="Image" class="img-fluid">
-										</div>
-										<div class="col-md-8">
-											<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingThree">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-									Engineering Plan
-								</button>
-							</h2>
-							<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-								<div class="accordion-body">
-									<div class="row justify-content-between">
-										<div class="col-md-4">
-											<img src="images/img_3.jpg" alt="Image" class="img-fluid">
-										</div>
-										<div class="col-md-8">
-											<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+        <div class="home-content">
 
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingFour">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-									Architecture Design
-								</button>
-							</h2>
-							<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-								<div class="accordion-body">
-									<div class="row justify-content-between">
-										<div class="col-md-4">
-											<img src="images/img_4.jpg" alt="Image" class="img-fluid">
-										</div>
-										<div class="col-md-8">
-											<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque. Veniam quidem debitis odio amet voluptas distinctio.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+            <div class="row home-content__main">
 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                <h1 style="text-transform: uppercase;">
+                    Força é um <br> segundo poder
+                </h1>
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="#"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
 
 
-	<div id="estrutura" class="section sec-1 bg-lightblack">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-lg-6">
-					<h2 class="heading" style="color: #fff;">Estrutura</h2>
-				</div>
-				<div class="col-lg-4">
-					<p>Delectus voluptatum distinctio quos eius excepturi sunt pariatur, aut, doloribus officia ea molestias beatae laudantium, quam odio ipsum veritatis est maiores velit quasi blanditiis et natus accusamus itaque.</p>
-				</div>
-			</div>
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h1 style="color: #fff;">Sobre a <span style="color: #CB2727;">GV2</span></h1>
+                <p class="lead" style="color: #7A7A7A;">Somos mais que uma academia de musculação, somos um time. Oferecemos o melhor para quem está determinado em treinar, com ampla quantidade de equipamentos e profissionais treinados e dedicados a te levar ao melhor desempenho referente aos seus objetivos.</p>
+            </div>
+        </div>
 
-			<div class="row g-4">
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="https://www.instagram.com/gv2academia/" target="_blank">
-							<img src="images/img_8.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project One</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="https://www.instagram.com/gv2academia/" target="_blank">
-							<img src="images/img_2.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project Two</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="https://www.instagram.com/gv2academia/" target="_blank">
-							<img src="images/img_3.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project One</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
+    </section> <!-- end about -->
 
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="https://www.instagram.com/gv2academia/" target="_blank">
-							<img src="images/img_4.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project One</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="https://www.instagram.com/gv2academia/" target="_blank">
-							<img src="images/img_5.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project Two</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-					<div class="single-portfolio">
-						<a href="https://www.instagram.com/gv2academia/" target="_blank">
-							<img src="images/img_6.jpg" alt="Image" class="img-fluid">
-							<div class="contents">
-								<h3>Project One</h3>
-								<div class="cat">Construction</div>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="linha-horizontal"></div>
 
-	<div id="planos" class="section sec-5">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-lg-6">
-					<h2 class="heading">Planos</h2>
-				</div>
-					<section class="pricing-section spad">
-							<div class="row">
-								<div class="col-lg-3 col-sm-6">
-									<div class="pricing-item begginer">
-										<div class="pi-top">
-											<h4>Begginer</h4>
-										</div>
-										<div class="pi-price">
-											<h3>$59</h3>
-											<p>Per month</p>
-										</div>
-										<ul>
-											<li>Take Up To 7 Classes</li>
-											<li>Available To Anyone</li>
-											<li>Towels Included</li>
-											<li>Never Expires</li>
-										</ul>
-										<a href="#" class="site-btn sb-line-gradient">Get started</a>
-									</div>
-								</div>
-								<div class="col-lg-3 col-sm-6">
-									<div class="pricing-item entermediate">
-										<div class="pi-top">
-											<h4>Entermediate</h4>
-										</div>
-										<div class="pi-price">
-											<h3>$99</h3>
-											<p>Per month</p>
-										</div>
-										<ul>
-											<li>Take Up To 7 Classes</li>
-											<li>Available To Anyone</li>
-											<li>Towels Included</li>
-											<li>Never Expires</li>
-										</ul>
-										<a href="#" class="site-btn sb-line-gradient">Get started</a>
-									</div>
-								</div>
-								<div class="col-lg-3 col-sm-6">
-									<div class="pricing-item advanced">
-										<div class="pi-top">
-											<h4>Advanced</h4>
-										</div>
-										<div class="pi-price">
-											<h3>$159</h3>
-											<p>Per month</p>
-										</div>
-										<ul>
-											<li>Take Up To 7 Classes</li>
-											<li>Available To Anyone</li>
-											<li>Towels Included</li>
-											<li>Never Expires</li>
-										</ul>
-										<a href="#" class="site-btn sb-line-gradient">Get started</a>
-									</div>
-								</div>
-								<div class="col-lg-3 col-sm-6">
-									<div class="pricing-item professional">
-										<div class="pi-top">
-											<h4>Professional</h4>
-										</div>
-										<div class="pi-price">
-											<h3>$199</h3>
-											<p>Per month</p>
-										</div>
-										<ul>
-											<li>Take Up To 7 Classes</li>
-											<li>Available To Anyone</li>
-											<li>Towels Included</li>
-											<li>Never Expires</li>
-										</ul>
-										<a href="#" class="site-btn sb-line-gradient">Get started</a>
-									</div>
-								</div>
-							</div>
-					</section>
-			</div>
-		</div>
-	</div>
+    <!-- team
+    ================================================== -->
+    <div class="container-equipe">
+        <div class="main-box inner flex">
+            <div class="team-wrap">
+                <div class="team-member text-center">
+                    <div class="team-img">
+                        <img src="images/trainer/trainer-2.jpg" alt="">
+                        <div class="overlay-equipe">
+                            <div class="team-details text-center">
+                                <div class="socials mt-20">
+                                    <a href="#"><span class="im im-facebook"></span></a>
+                                    <a href="#"><span class="im im-instagram"></span></a>
+                                    <a href="#"><span class="im im-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="team-title" style="color: #fff;">Gustavo</h2>
+                    <span style="font-size: 18px;">Em breve</span>
+                </div>
+            </div>
+            <!-- end team member -->
+            <div class="team-wrap">
+                <div class="team-member text-center">
+                    <div class="team-img">
+                        <img src="images/trainer/trainer-1.jpg" alt="">
+                        <div class="overlay-equipe">
+                            <div class="team-details text-center">
+                                <div class="socials mt-20">
+                                    <a href="#"><span class="im im-facebook"></span></a>
+                                    <a href="#"><span class="im im-instagram"></span></a>
+                                    <a href="#"><span class="im im-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="team-title" style="color: #fff;">Camila</h2>
+                    <span style="font-size: 18px;">Em breve</span>
+                </div>
+            </div>
+            <!-- end team member -->
+            <div class="team-wrap">
+                <div class="team-member text-center">
+                    <div class="team-img">
+                        <img src="images/trainer/trainer-3.jpg" alt="">
+                        <div class="overlay-equipe">
+                            <div class="team-details text-center">
+                                <div class="socials mt-20">
+                                    <a href="#"><span class="im im-facebook"></span></a>
+                                    <a href="#"><span class="im im-instagram"></span></a>
+                                    <a href="#"><span class="im im-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="team-title" style="color: #fff;">Elias</h2>
+                    <span style="font-size: 18px;">Em breve</span>
+                </div>
+            </div>
+            <!-- end team member -->
+            <div class="team-wrap">
+                <div class="team-member text-center">
+                    <div class="team-img">
+                        <img src="images/trainer/trainer-1.jpg" alt="">
+                        <div class="overlay-equipe">
+                            <div class="team-details text-center">
+                                <div class="socials mt-20">
+                                    <a href="#"><span class="im im-facebook"></span></a>
+                                    <a href="#"><span class="im im-instagram"></span></a>
+                                    <a href="#"><span class="im im-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="team-title" style="color: #fff;">Fran</h2>
+                    <span style="font-size: 18px;">Em breve</span>
+                </div>
+            </div>
+            <!-- end team member -->
+        </div>
 
-	<div id="equipe" class="section sec-team sec-1 bg-lightblack">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-lg-6 mx auto">
-					<h2 class="heading" style="color: #fff;">Equipe</h2>
-				</div>
-			</div>
+    </div>
+    <!-- end team -->
 
-			<div class="row g-5 equipe">
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3-equipe">
-					<div class="person">
-						<img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle mx-auto w-50 mb-3">
-						<h3 class="mb-1">Gustavo</h3>
-						<span class="d-block text-black-50 mb-3">CEO, Partner</span>
-						<p class="text-black-50">em breve.</p>
-						<ul class="social-2 list-unstyled mb-5">
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-instagram"></span></a></li>
-							<li><a href="#"><span class="icon-linkedin"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3-equipe">
-					<div class="person">
-						<img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle mx-auto w-50 mb-3">
-						<h3 class="mb-1">Fran</h3>
-						<span class="d-block text-black-50 mb-3">CEO, Partner</span>
-						<p class="text-black-50">em breve.</p>
-						<ul class="social-2 list-unstyled mb-5">
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-instagram"></span></a></li>
-							<li><a href="#"><span class="icon-linkedin"></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3-equipe">
-					<div class="person">
-						<img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle mx-auto w-50 mb-3">
-						<h3 class="mb-1">Elias</h3>
-						<span class="d-block text-black-50 mb-3">CEO, Partner</span>
-						<p class="text-black-50">em breve.</p>
-						<ul class="social-2 list-unstyled mb-5">
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-instagram"></span></a></li>
-							<li><a href="#"><span class="icon-linkedin"></span></a></li>
-						</ul>
-					</div>
-				</div>
+   <!-- Price Plan Section Begin -->
+   <div id="pricing" class="s-pricing">
 
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3-equipe">
-					<div class="person">
-						<img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle mx-auto w-50 mb-3">
-						<h3 class="mb-1">Mauricio</h3>
-						<span class="d-block text-black-50 mb-3">CEO, Partner</span>
-						<p class="text-black-50">em breve.</p>
-						<ul class="social-2 list-unstyled mb-5">
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-instagram"></span></a></li>
-							<li><a href="#"><span class="icon-linkedin"></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+        <div class="overlay"></div>
 
-		</div>
-	</div>
+        <div class="row narrow section-intro has-bottom-sep-video">
+            <div class="col-full text-center">
+                <h1 style="color: #fff;">Nossos Planos</h1>
+            </div>
+        </div>
 
-	<div class="section sec-2 bg-lightblack">
-		<div class="container">
-			<div class="row g-0">
-				<div class="col-lg-6 mb-4 mb-lg-0 img-box">
-					<img src="images/" alt="">
-				</div>
-				<div class="col-lg-3 ms-auto">
-					<h2 class="heading" style="color: #fff;">Juntos buscamos os melhores resultados</h2>
-					<p>Faça sua matrícula e entre para o Time GV2! Fazer parte do time oferece desconto na Moda Fitness GV2 com itens exclusivos. Treinar é bom, mas treinar entre amigos é melhor ainda!</p>
-					<p><a href="#" class="more-2">TIME GV2 <span class="icon-arrow_forward"></span></a></p>
-				</div>
-			</div>
-		</div>
-	</div>	
+    </div>
 
-	<div id="contato" class="section sec-news bckgcontact">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-lg-6 mx auto">
-					<h2 class="heading">Contato</h2>
-				</div>
-			</div>
+    <!-- blog
+    ================================================== -->
+        <section id="estrutura" class="s-services">    
+            <div class="row narrow section-intro has-bottom-sep">
+                <div class="col-full text-center">
+                    <h1 style="color: #fff;">Estrutura</h1>
+                </div>
+            </div>
+            <div class="container-services">
+                <div class="row-services">
+                    <div class="service">
+                        <i class="fa-solid fa-file-medical"></i>
+                        <h2 style="color: #fff; margin-top: 0; margin-bottom: 0;">Avaliação Física</h2>
+                        <p>Em breve.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h2 style="color: #fff; margin-top: 0; margin-bottom: 0;">Musculação</h2>
+                        <p>Em breve.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <h2 style="color: #fff; margin-top: 0; margin-bottom: 0;">Aeróbico</h2>
+                        <p>Em breve.</p>
+                    </div>
+                </div>
+                <div class="row-services" style="padding-top: 30px;">
+                    <div class="service">
+                        <i class="fa-solid fa-users"></i>
+                        <h2 style="color: #fff; margin-top: 0; margin-bottom: 0;">Equipe</h2>
+                        <p>Em breve.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-wifi"></i>
+                        <h2 style="color: #fff; margin-top: 0; margin-bottom: 0;">Wi-Fi</h2>
+                        <p>Em breve.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-vault"></i>
+                        <h2 style="color: #fff; margin-top: 0; margin-bottom: 0;">Armários</h2>
+                        <p>Em breve.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section><!-- end s-blog -->
 
-			<div class="row">
-				
-			</div>
-		</div>
-	</div>
+     <!-- video
+    ================================================== -->
+    <div class="s-video video-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro has-bottom-sep-video">
+            <div class="video-text text-center">
+                <h1 style="color: #fff;">Faça parte do TIME GV2</h1>
+                <a href="https://www.youtube.com/watch?v=X_9VoqR5ojM" class="play-btn video-popup">
+                    <i class="fa-solid fa-play"></i>
+                </a>
+            </div>
+        </div>
+
+    </div> <!-- end s-video -->
+
+   <!-- works
+    ================================================== -->
+    <section id="gallery" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep-video">
+            <div class="col-full">
+                <h1 style="color: #fff;">Galeria</h1>
+            </div>
+        </div>
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="https://www.instagram.com/gv2academia/" target="_blank" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/beetle.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                The Beetle
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="https://www.instagram.com/gv2academia/" target="_blank" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/pesos.png" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lighthouse
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="https://www.instagram.com/gv2academia/" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/degrade2.png"alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
 
 
+                <div class="masonry__brick">
+                    <div class="item-folio">
 
-	
+                        <div class="item-folio__thumb">
+                            <a href="https://www.instagram.com/gv2academia/" target="_blank" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
 
-	<div class="site-footer bg-lightblack">
-		<div class="container">
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Woodcraft
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
 
-			<div class="row justify-content-between">
-				<div class="col-lg-4">
-					<div class="widget">
-						<h3 class="line-top" style="color: #fff;">GV2 Academia</h3>
-						<p class="mb-5">Se interessou por nossa academia? Faça parte do TIME GV2! Confira as nossas redes sociais.</p>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="col-12">
-							<div class="widget">
-								<h3 class="line-top" style="color: #fff;">Faça parte do TIME GV2!</h3>
-							</div>
-						</div>
-							<div class="widget">
-								<ul class="social list-unstyled mb-5">
-									<li><a href="#"><span class="icon-facebook"></span></a></li>
-									<li><a href="#"><span class="icon-twitter"></span></a></li>
-									<li><a href="#"><span class="icon-instagram"></span></a></li>
-									<li><a href="#"><span class="icon-linkedin"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
 
-			<div class="row justify-content-center text-center copyright">
-				<div class="col-md-8">
-					© <script>
-						document.write(new Date().getFullYear())
-					  </script>,
-					  Feito <i class="fa fa-bolt"></i> por
-					  <a href="https://instagram.com/ahtaeeazy" class="font-weight-bold" target="_blank">EAZY</a> <!-- License information: https://untree.co/license/ -->
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="https://www.instagram.com/gv2academia/" target="_blank" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/pesos.png" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lighthouse
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="https://www.instagram.com/gv2academia/" target="_blank" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/pesos.png" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lighthouse
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="https://www.instagram.com/gv2academia/" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/degrade1.2.png" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="https://www.instagram.com/gv2academia/" target="_blank" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lady Shutterbug
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works -->
 
 
-	
+    <!-- Cta Section Begin -->
+    <!--<section class="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cta-text">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cta Section End -->
 
 
-	<!-- Preloader -->
-	<div id="overlayer"></div>
-	<div class="loader">
-		<div class="spinner-border" role="status">
-			<span class="visually-hidden">Loading...</span>
-		</div>
-	</div>
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
 
-	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/tiny-slider.js"></script>
-	<script src="js/aos.js"></script>
-	<script src="js/glightbox.min.js"></script>
-	<script src="js/navbar.js"></script>
-	<script src="js/counter.js"></script>
-	<script src="js/custom.js"></script>
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h1>Contato</h1>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                <form name="contactForm" id="contactForm" method="post" action="">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+                        
+            </div>
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Telefone</h4>
+                <p>Telefone: (+63) 555 1212<br>
+                Mobile: (+63) 555 0100<br>
+                Fax: (+63) 555 0101
+                </p>
+
+                <h4 class="h06">Email</h4>
+                <p>someone@holawebsite.com<br>
+                info@holawebsite.com
+                </p>
+
+                <h4 class="h06">Endereço</h4>
+                <p>
+                1600 Amphitheatre Parkway<br>
+                Mountain View, CA<br>
+                94043 US
+                </p>
+            </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/ICO GV2.ico" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                    <li><a href="#0">
+                        <i class="im im-facebook" aria-hidden="true"></i>
+                        <span>Facebook</span>
+                    </a></li>
+                    <li><a href="#0">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    © <script>
+                        document.write(new Date().getFullYear())
+                      </script>,
+                      Feito <i class="fa-solid fa-bolt"></i> por
+                      <a href="https://instagram.com/ahtaeeazy" class="font-weight-bold" target="_blank">EAZY</a>
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
