@@ -186,7 +186,7 @@ h5, .h05 {
 
 h6, .h06 {
     font-family: "azo-sans-bold", sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: .16rem;
@@ -3343,7 +3343,7 @@ img{width: 100%;}
 }
 
 .contact__infos {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .contact__form {
@@ -4679,7 +4679,7 @@ body::-webkit-scrollbar {
     text-align: center;
     padding: 25px 10px;
     border-radius: 5px;
-    font-size: 17px;
+    font-size: 19px;
     cursor: pointer;
     background: transparent;
     transition: transform 0.5s, background 0.5s;
