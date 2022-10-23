@@ -1726,7 +1726,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "azo-sans-bold", sans-serif;
     font-size: 1.1rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
