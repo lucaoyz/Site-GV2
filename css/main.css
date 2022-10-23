@@ -88,7 +88,7 @@ body {
     font-family: "azo-sans-light", sans-serif;
     font-size: 1.6rem;
     line-height: 1.875;
-    color: #5f5f5f;
+    color: #888888;
     margin: 0;
     padding: 0;
 }
@@ -190,6 +190,7 @@ h6, .h06 {
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: .16rem;
+    color: #C2C0D9;
 }
 
 p img {
@@ -206,7 +207,7 @@ p.lead {
 
 @media only screen and (max-width: 800px) {
     p.lead {
-        font-size: 1.9rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -1341,128 +1342,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 1.6rem;
     }
 }
-
-
-/* ------------------------------------------------------------------- 
- * ## blog-list - (_common-styles.scss)
- * ------------------------------------------------------------------- */
-
-.blog-list {
-    margin-top: 6rem;
-    margin-left: 0;
-}
-
-.blog-list article {
-    margin-bottom: 7.2rem;
-}
-
-.blog-list article:nth-child(2n+1) {
-    padding-right: 50px;
-}
-
-.blog-list article:nth-child(2n+2) {
-    padding-left: 50px;
-}
-
-.blog-list h2 {
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 3rem;
-    line-height: 1.2;
-    margin-top: .3rem;
-    margin-bottom: 2.1rem;
-    padding-bottom: 2.4rem;
-    color: #0D0A0B;
-    position: relative;
-}
-
-.blog-list h2 a {
-    color: #0D0A0B;
-}
-
-.blog-list h2::after {
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 1px;
-    width: 80px;
-    background-color: rgba(0, 0, 0, 0.15);
-}
-
-.blog-list .blog-date {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 1.5rem;
-    color: #862121;
-}
-
-.blog-list .blog-date a {
-    color: #862121;
-}
-
-.blog-list .blog-date a:hover, 
-.blog-list .blog-date a:focus, 
-.blog-list .blog-date a:active {
-    color: #000000;
-}
-
-.blog-list .blog-cat {
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    color: #000000;
-    margin-top: -.9rem;
-}
-
-.blog-list .blog-cat a {
-    color: #000000;
-}
-
-.blog-list .blog-cat a:hover, 
-.blog-list .blog-cat a:focus, 
-.blog-list .blog-cat a:active {
-    color: #862121;
-}
-
-.blog-list .blog-cat a::after {
-    content: ", ";
-}
-
-.blog-list .blog-cat a:last-child::after {
-    display: none;
-}
-
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * blog-list
- * ------------------------------------------------------------------- */
-
-@media only screen and (max-width: 1200px) {
-    .blog-list article:nth-child(2n+1) {
-        padding-right: 40px;
-    }
-    .blog-list article:nth-child(2n+2) {
-        padding-left: 40px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .blog-list article:nth-child(n) {
-        padding: 0 15px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .blog-list article:nth-child(n) {
-        padding: 0;
-    }
-    .blog-list h2 {
-        font-size: 2.7rem;
-    }
-}
-
 
 
 /* ===================================================================
@@ -3271,7 +3150,7 @@ img{width: 100%;}
     background-position: center, center;
     padding-top: 13.2rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #888888;
     position: relative;
 }
 
@@ -3281,7 +3160,7 @@ img{width: 100%;}
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .75;
+    opacity: .25;
     background-color: #070606;
 }
 
@@ -3294,141 +3173,11 @@ img{width: 100%;}
 }
 
 .s-contact .section-intro.has-bottom-sep::after {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #C2C0D9;
 }
 
 .s-contact .form-field {
     position: relative;
-}
-
-.s-contact .form-field:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.s-contact .form-field label {
-    font-family: "montserrat-semibold", sans-serif;
-    font-size: 1.1rem;
-    line-height: 2.4rem;
-    position: absolute;
-    bottom: -0.3rem;
-    right: .6rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    padding: 0 2rem;
-    margin: 0;
-    color: #FFFFFF;
-    background: #862121;
-}
-
-.s-contact .form-field label::after {
-    content: "";
-    position: absolute;
-    left: -5px;
-    top: 50%;
-    margin-top: -6px;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-right: 5px solid #862121;
-}
-
-.contact__main {
-    max-width: 900px;
-    position: relative;
-}
-
-.contact__main h4 {
-    color: #FFFFFF;
-}
-
-.contact__infos {
-    font-size: 1.7rem;
-}
-
-.contact__form {
-    padding-right: 40px;
-}
-
-.contact__form input[type="email"], 
-.contact__form input[type="number"], 
-.contact__form input[type="text"], 
-.contact__form input[type="tel"], 
-.contact__form input[type="url"], 
-.contact__form textarea {
-    background-color: transparent;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: .9rem;
-    color: rgba(255, 255, 255, 0.75);
-}
-
-.contact__form input[type="email"]:focus, 
-.contact__form input[type="number"]:focus, 
-.contact__form input[type="text"]:focus, 
-.contact__form input[type="tel"]:focus, 
-.contact__form input[type="url"]:focus, 
-.contact__form textarea:focus {
-    color: white;
-    border-bottom: 1px solid white;
-}
-
-.contact__form button {
-    margin-top: 4.2rem;
-    background-color: #862121;
-    border-color: #862121;
-}
-
-.message-warning, .message-success {
-    display: none;
-    background: #0D0A0B;
-    font-size: 1.5rem;
-    line-height: 2;
-    padding: 3rem;
-    margin-bottom: 3.6rem;
-    width: 100%;
-}
-
-.message-warning {
-    color: #ff6163;
-}
-
-.message-success {
-    color: #008C2C;
-}
-
-.message-warning i, .message-success i {
-    margin-right: 10px;
-    font-size: 1.2rem;
-}
-
-
-/* form loader */
-
-.submit-loader {
-    display: none;
-    position: relative;
-    left: 0;
-    top: 1.8rem;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 4.2rem;
-}
-
-.submit-loader .text-loader {
-    display: none;
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 1.4rem;
-    color: #FFFFFF;
-    letter-spacing: .2rem;
-    text-transform: uppercase;
-}
-
-.oldie .submit-loader .s-loader {
-    display: none;
-}
-
-.oldie .submit-loader .text-loader {
-    display: block;
 }
 
 
@@ -3531,15 +3280,15 @@ footer {
     font-size: 14px;
     padding: 6.6rem 0 4.2rem;
     text-align: center;
-    color: rgba(255, 255, 255, 0.2);
+    color: #888888;
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color: #FFF;
 }
 
 footer a:hover, footer a:focus {
-    color: #FFFFFF;
+    color: #CCF443;
 }
 
 .footer-logo {
@@ -4679,7 +4428,7 @@ body::-webkit-scrollbar {
     text-align: center;
     padding: 25px 10px;
     border-radius: 5px;
-    font-size: 19px;
+    font-size: 20px;
     cursor: pointer;
     background: transparent;
     transition: transform 0.5s, background 0.5s;
