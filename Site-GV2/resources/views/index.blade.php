@@ -75,9 +75,9 @@
 
             <div class="row home-content__main">
 
-                <h1>
-                    <br>
-                    <br>
+                <h1 style="text-transform: uppercase;">
+                    Força é um<br>
+                    segundo poder
                   
                 </h1>
 
