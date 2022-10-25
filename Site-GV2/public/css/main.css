@@ -1522,7 +1522,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .header-nav-wrap {
-    font-family: "azo-sans-bold", sans-serif;
+    font-family: "azo-sans-regular", sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -1726,7 +1726,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a {
-    font-family: "azo-sans-bold", sans-serif;
+    font-family: "azo-sans-regular", sans-serif;
     font-size: 1.1rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
