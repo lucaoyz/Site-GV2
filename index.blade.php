@@ -20,20 +20,20 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="{{asset('css/base.css')}}">
+    <link rel="stylesheet" href="{{asset('css/vendor.css')}}">
+    <link rel="stylesheet" href="{{asset('css/main.css')}}">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <script src="{{asset('js/modernizr.js')}}"></script>
+    <script src="{{asset('js/pace.min.js')}}"></script>
     <script src="https://kit.fontawesome.com/ea50c2066e.js" crossorigin="anonymous"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="images/ICO GV2.ico" type="image/x-icon">
-    <link rel="icon" href="images/ICO GV2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('images/ICO GV2.ico')}}" type="image/x-icon">
+    <link rel="icon" href="{{asset('images/ICO GV2.ico')}}" type="image/x-icon">
 
 </head>
 
@@ -44,7 +44,7 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html"><img src="images/Logo horizontal mais compacta.png" alt=""></a>
+            <a class="site-logo" href="index.html"><img src="{{asset('images/Logo horizontal mais compacta.png')}}" alt=""></a>
         </div>
 
         <nav class="header-nav-wrap">
@@ -66,7 +66,7 @@
 
    <!-- home
    ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/bckg.jpg" data-natural-width=8000 data-natural-height=4500 data-position-y=center>
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="{{asset('images/bckg.jpg')}}" data-natural-width=8000 data-natural-height=4500 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -125,7 +125,7 @@
             <div class="team-wrap">
                 <div class="team-member text-center">
                     <div class="team-img">
-                        <img src="images/trainer/trainer-2.jpg" alt="">
+                        <img src="{{asset('images/trainer/trainer-2.jpg')}}" alt="">
                         <div class="overlay-equipe">
                             <div class="team-details text-center">
                                 <div class="socials mt-20">
@@ -144,7 +144,7 @@
             <div class="team-wrap">
                 <div class="team-member text-center">
                     <div class="team-img">
-                        <img src="images/trainer/trainer-1.jpg" alt="">
+                        <img src="{{asset('images/trainer/trainer-1.jpg')}}" alt="">
                         <div class="overlay-equipe">
                             <div class="team-details text-center">
                                 <div class="socials mt-20">
@@ -163,7 +163,7 @@
             <div class="team-wrap">
                 <div class="team-member text-center">
                     <div class="team-img">
-                        <img src="images/trainer/trainer-3.jpg" alt="">
+                        <img src="{{asset('images/trainer/trainer-3.jpg')}}" alt="">
                         <div class="overlay-equipe">
                             <div class="team-details text-center">
                                 <div class="socials mt-20">
@@ -182,7 +182,7 @@
             <div class="team-wrap">
                 <div class="team-member text-center">
                     <div class="team-img">
-                        <img src="images/trainer/trainer-1.jpg" alt="">
+                        <img src="{{asset('images/trainer/trainer-1.jpg')}}" alt="">
                         <div class="overlay-equipe">
                             <div class="team-details text-center">
                                 <div class="socials mt-20">
@@ -336,7 +336,7 @@
 
                         <div class="item-folio__thumb">
                             <a href="https://www.instagram.com/gv2academia/" target="_blank" title="The Beetle Car" data-size="1050x700">
-                                <img src="images/portfolio/itens-acad.png" alt="">
+                                <img src="{{asset('images/portfolio/itens-acad.png')}}" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -358,7 +358,7 @@
 
                         <div class="item-folio__thumb">
                             <a href="https://www.instagram.com/gv2academia/" target="_blank" title="Lighthouse" data-size="1050x700">
-                                <img src="images/portfolio/mulher-acad.png" alt="">
+                                <img src="{{asset('images/portfolio/mulher-acad.png')}}" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -380,7 +380,7 @@
 
                         <div class="item-folio__thumb">
                             <a href="https://www.instagram.com/gv2academia/" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/degrade2.png"alt="">
+                                <img src="{{asset('images/portfolio/degrade2.png')}}"alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -394,7 +394,7 @@
 
                         <div class="item-folio__thumb">
                             <a href="https://www.instagram.com/gv2academia/" target="_blank" data-size="1050x700">
-                                <img src="images/portfolio/homem-peso.png" alt="">
+                                <img src="{{asset('images/portfolio/homem-peso.png')}}" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -416,7 +416,7 @@
 
                         <div class="item-folio__thumb">
                             <a href="https://www.instagram.com/gv2academia/" target="_blank" title="Lighthouse" data-size="1050x700">
-                                <img src="images/portfolio/pesos2.png" alt="">
+                                <img src="{{asset('images/portfolio/pesos2.png')}}" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -438,7 +438,7 @@
 
                         <div class="item-folio__thumb">
                             <a href="https://www.instagram.com/gv2academia/" target="_blank" title="Lighthouse" data-size="1050x700">
-                                <img src="images/portfolio/pesos.png" alt="">
+                                <img src="{{asset('images/portfolio/pesos.png')}}" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -460,7 +460,7 @@
 
                         <div class="item-folio__thumb">
                             <a href="https://www.instagram.com/gv2academia/" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/degrade1.2.png" alt="">
+                                <img src="{{asset('images/portfolio/degrade1.2.png')}}" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -473,7 +473,7 @@
 
                         <div class="item-folio__thumb">
                             <a href="https://www.instagram.com/gv2academia/" target="_blank" data-size="1050x700">
-                                <img src="images/portfolio/pesao.png" alt="">
+                                <img src="{{asset('images/portfolio/pesao.png')}}" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -494,23 +494,6 @@
         </div> <!-- end masonry -->
 
     </section> <!-- end works -->
-
-
-    <!-- Cta Section Begin -->
-    <!--<section class="cta-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="cta-text">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Cta Section End -->
-
 
     <!-- s-stats
     ================================================== -->
@@ -537,7 +520,7 @@
             <div class="col-full">
 
                 <div class="footer-logo">
-                    <a class="footer-site-logo" href="#0"><img src="images/ICO GV2.ico" alt="Homepage"></a>
+                    <a class="footer-site-logo" href="#0"><img src="{{asset('images/ICO GV2.ico')}}" alt="Homepage"></a>
                 </div>
 
                 <ul class="footer-social">
@@ -621,9 +604,9 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{asset('js/plugins.js')}}"></script>
+    <script src="{{asset('js/main.js')}}"></script>
 
 </body>
 
