@@ -206,7 +206,7 @@
    <!-- Price Plan Section Begin -->
     <section id="pricing" class="s-pricing target-section">
         
-        <div class="row narrow section-intro has-bottom-sep">
+        <div class="row narrow section-intro has-bottom-sep-video"">
             <div class="col-full text-center">
                 <h1 style="color: #fff;">Planos</h1>
             </div>
@@ -501,7 +501,7 @@
 
         <div class="overlay"></div>
 
-    <div class="row narrow section-intro">
+        <div class="row narrow section-intro">
             <div class="col-full text-center">
                 <h1>Contato</h1>
             </div>

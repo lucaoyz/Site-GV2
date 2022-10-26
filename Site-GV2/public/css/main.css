@@ -84,7 +84,7 @@ html, body {
 }
 
 body {
-    background: #0a0809;
+    background: #000;
     font-family: "azo-sans-light", sans-serif;
     font-size: 1.6rem;
     line-height: 1.875;
@@ -2635,8 +2635,7 @@ img{width: 100%;}
  *
  * ------------------------------------------------------------------- */
  .s-pricing {
-    background-color: #000;
-    background-image: url("../images/bckgabst.png");
+    background-color: #BF1D1A;
     background-repeat: no-repeat;
     padding-top: 9.6rem;
     padding-bottom: 10.2rem;
