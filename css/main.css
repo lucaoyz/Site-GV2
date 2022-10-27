@@ -3223,7 +3223,7 @@ img{width: 100%;}
  * ------------------------------------------------------------------- */
 
  .s-contact {
-    background-color: #151515;
+    background-color: #000;
     background-image: url("../images/hero-3.png");
     background-repeat: no-repeat;
     background-position: center, center;
@@ -3252,12 +3252,145 @@ img{width: 100%;}
 }
 
 .s-contact .section-intro.has-bottom-sep::after {
-    background-color: #C2C0D9;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .s-contact .form-field {
     position: relative;
 }
+
+.s-contact .form-field:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.s-contact .form-field label {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+    position: absolute;
+    bottom: -0.3rem;
+    right: .6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 0 2rem;
+    margin: 0;
+    color: #FFFFFF;
+    background: #862121;
+}
+
+.s-contact .form-field label::after {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    margin-top: -6px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #862121;
+}
+
+.contact__main {
+    max-width: 900px;
+    position: relative;
+}
+
+.contact__main h4 {
+    color: #FFFFFF;
+}
+
+.contact__infos {
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contact__form {
+    padding-right: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contact__form input[type="email"], 
+.contact__form input[type="number"], 
+.contact__form input[type="text"], 
+.contact__form input[type="tel"], 
+.contact__form input[type="url"], 
+.contact__form textarea {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: .9rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.contact__form input[type="email"]:focus, 
+.contact__form input[type="number"]:focus, 
+.contact__form input[type="text"]:focus, 
+.contact__form input[type="tel"]:focus, 
+.contact__form input[type="url"]:focus, 
+.contact__form textarea:focus {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.contact__form button {
+    margin-top: 4.2rem;
+    background-color: #862121;
+    border-color: #862121;
+}
+
+.message-warning, .message-success {
+    display: none;
+    background: #0D0A0B;
+    font-size: 1.5rem;
+    line-height: 2;
+    padding: 3rem;
+    margin-bottom: 3.6rem;
+    width: 100%;
+}
+
+.message-warning {
+    color: #ff6163;
+}
+
+.message-success {
+    color: #008C2C;
+}
+
+.message-warning i, .message-success i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+
+/* form loader */
+
+.submit-loader {
+    display: none;
+    position: relative;
+    left: 0;
+    top: 1.8rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4.2rem;
+}
+
+.submit-loader .text-loader {
+    display: none;
+    font-family: "azo-sans-regular", sans-serif;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.oldie .submit-loader .s-loader {
+    display: none;
+}
+
+.oldie .submit-loader .text-loader {
+    display: block;
+}
+
 
 /* --------------------------------------------------------------- 
  * loader animation - (_site-layout.scss)
@@ -3345,6 +3478,7 @@ img{width: 100%;}
         padding-right: 0;
     }
 }
+
 
 
 
