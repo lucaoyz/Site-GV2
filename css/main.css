@@ -2499,13 +2499,142 @@ html.no-csstransitions .home-content__main {
  * # equipe - (_site-layout.scss)
  *
  * ------------------------------------------------------------------- */
+ .flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.inner{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+img{width: 100%;}
+
+.container-equipe{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 10.2rem;
+}
+
+.heading{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.heading h1{
+    font-size: 40px;
+}
+  
+.heading p{
+    font-size: 25px;
+}
+
+.team-wrap{
+    width: 22%;
+    margin-top: 120px;
+}
+
+.team-img img{
+    -webkit-transition: all .2s ease-in-out;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.team-member, .team-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-title{
+    margin: 30px 0 7px;
+    font-size: 22px;
+    font-family: "azo-sans-bold", sans-serif;
+}
+
+.overlay-equipe{
+    background-color: rgba(20, 20, 20, 0.7);
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 97.6%;
+    opacity: 0;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.team-details{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 5%;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.team-details p{
+    color: #fff;
+}
+
+.team-img:hover .team-details{
+    opacity: 1;
+    margin-top: -80px;
+}
+
+.team-img:hover .overlay-equipe{
+    opacity: 1;
+}
+
+.socials a{
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-color: transparent;
+}
+
+.socials span{
+    line-height: 37px;
+    color: #fff;
+    font-size: 1.8rem;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.team-details .socials span{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:768px){
+    .main-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-wrap{
+        width: 50%;
+        margin-top: 75px;
+    }
+}
 /* ===================================================================
  * # pricing - (_site-layout.scss)
  *
  * ------------------------------------------------------------------- */
- .s-pricing {
-    background: linear-gradient(145deg, #822121 0%, #F63D3D 100%);
+.s-pricing {
+    background: radial-gradient(#822121,#F63D3D);
     padding-top: 9.6rem;
     padding-bottom: 10.2rem;
     color: rgba(255, 255, 255, 0.5);
@@ -2515,7 +2644,7 @@ html.no-csstransitions .home-content__main {
 .pricing-table{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     width: min(1920px,100%);
 }
  
