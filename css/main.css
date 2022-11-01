@@ -199,7 +199,7 @@ p img {
 
 p.lead {
     font-family: "azo-sans-light", sans-serif;
-    font-size: 25px;
+    font-size: 26px;
     line-height: 1.8;
     margin-bottom: 3.6rem;
     color: #0D0A0B;
@@ -2499,142 +2499,133 @@ html.no-csstransitions .home-content__main {
  * # equipe - (_site-layout.scss)
  *
  * ------------------------------------------------------------------- */
- .flex{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+ .team{
+    padding: 50px 0;
+    box-sizing: border-box;
+ }
 
-.inner{
-    max-width: 1400px;
-    margin: 0 auto;
-}
+ .container-team{
+    width: 80%;
+    margin: 50px auto;
+ }
 
-img{width: 100%;}
-
-.container-equipe{
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0px;
-    padding-bottom: 10.2rem;
-}
-
-.heading{
-    width: 100%;
-    padding-top: 80px;
-}
-
-.heading h1{
-    font-size: 40px;
-}
-  
-.heading p{
-    font-size: 25px;
-}
-
-.team-wrap{
-    width: 22%;
-    margin-top: 120px;
-}
-
-.team-img img{
-    -webkit-transition: all .2s ease-in-out;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-}
-
-.team-member, .team-img{
+ .row-team{
     position: relative;
-    overflow: hidden;
-}
-
-.team-title{
-    margin: 30px 0 7px;
-    font-size: 22px;
-    font-family: "azo-sans-bold", sans-serif;
-}
-
-.overlay-equipe{
-    background-color: rgba(20, 20, 20, 0.7);
-    position: absolute;
-    top: 0;
-    overflow: hidden;
     width: 100%;
-    height: 97.6%;
-    opacity: 0;
-    -webkit-transition: all .2s ease-in-out;
-}
+    box-sizing: border-box;
+ }
 
-.team-details{
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    padding: 5%;
-    overflow: hidden;
-    width: 100%;
-    z-index: 2;
-    -webkit-transition: all .2s ease-in-out;
-}
-
-.team-details p{
+ .row-team h1{
     color: #fff;
-}
-
-.team-img:hover .team-details{
-    opacity: 1;
-    margin-top: -80px;
-}
-
-.team-img:hover .overlay-equipe{
-    opacity: 1;
-}
-
-.socials a{
-    display: inline-block;
-    width: 37px;
-    height: 37px;
-    background-color: transparent;
-}
-
-.socials span{
-    line-height: 37px;
-    color: #fff;
-    font-size: 1.8rem;
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
     text-align: center;
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-}
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+ }
 
-.team-details .socials span{
+ .row-team p{
+    margin: 20px 0 0;
     color: #fff;
-    margin-top: 30px;
-    font-size: 20px;
+    padding-left: 20px;
+    border-left: 5px solid #f00;
+ }
+
+ .row-team .column{
+    margin: 0 10px;
+    position: relative;
+    width: calc(25% - 20px);
+    min-height: 250px;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+ }
+
+ .row-team .column .imgBox{
+    position: relative;
+ }
+
+ .row-team .column .details{
+    bottom: -85px;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .9);
+    width: 100%;
+    transition: .5s;
+    z-index: 2;
+ }
+
+ .row-team .column:hover .details{
+    bottom: 0;
+ }
+
+ .row-team .column .details h3{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    letter-spacing: .2rem;
+    font-size: 22px;
+    text-align: center;
+ }
+
+ .row-team .column .details h3 span{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #CB2727;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    top: -6px;
+ }
+
+ .row-team .column .details ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+ }
+
+ .row-team .column .details ul li{
+    list-style: none;
+ }
+
+ .row-team .column .details ul li i{
+    padding: 0 10px;
+    color: #fff;
+    font-size: 1.7rem;
+ }
+
+@media (max-width: 992px){
+    .container-team{
+        width: 90%;
+        margin: 20px auto;
+     }
+     .row-team .column{
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+     }
 }
 
-@media only screen and (max-width:768px){
-    .main-box{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .team-wrap{
-        width: 50%;
-        margin-top: 75px;
-    }
+@media (max-width: 600px){
+    .container-team{
+        width: 95%;
+        margin: 20px auto;
+     }
+     .row-team .column{
+        width: calc(100% - 20px);
+        margin-bottom: 20px;
+     }
 }
 /* ===================================================================
  * # pricing - (_site-layout.scss)
  *
  * ------------------------------------------------------------------- */
 .s-pricing {
-    background: radial-gradient(#822121,#F63D3D);
+    background-color: #000;
+    background-image: url("../images/price-bg.png");
     padding-top: 9.6rem;
     padding-bottom: 10.2rem;
     color: rgba(255, 255, 255, 0.5);
@@ -2645,7 +2636,7 @@ img{width: 100%;}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: min(1920px,100%);
+    position: relative;
 }
  
 .pricing-card{
@@ -2659,7 +2650,6 @@ img{width: 100%;}
     color: #ffffff;
     transition: .3s linear;
     /* border: 0.5px solid #fff; */
-     
 }
  
 .pricing-card-header{
@@ -2682,6 +2672,7 @@ img{width: 100%;}
     transition: .2s linear;
 }
  
+ 
 .price sup, .price span {
     font-size: 22px;
     font-weight: 700;
@@ -2701,19 +2692,20 @@ img{width: 100%;}
     display: inline-block;
     font-size: 18px;
     margin-bottom: 40px;
-    margin-top: 80px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
+    background-color: #000;
     color: #ffffff;
     padding: 18px 40px;
-    font-family: "azo-sans-regular", sans-serif;
+    font-family: "azo-sans-bold", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     transition: .3s linear;
 }
  
 .order-btn:hover {
-    background-color: #F63D3D;
-    color: #fff;
+    background-color: #CB2727;
+    color: #000;
+    border: 2px solid #CB2727;
 }
  
 @media screen and (max-width:1100px)
@@ -4631,10 +4623,6 @@ body::-webkit-scrollbar {
     transform: scale(1.05);
 }*/
 
-.service:hover i{
-    color: #fff;
-}
-
 
 /*---------------------
   Video Section
@@ -5034,4 +5022,12 @@ body::-webkit-scrollbar {
     height: 100px;
     border-right: 1px solid CB2727;
     width: 50%;
+}
+
+/* indexEUA */
+.botao-ingles{
+    height: 24.5px;
+    width: 25px;
+    border: 1px;
+    border-radius: 0px;
 }
